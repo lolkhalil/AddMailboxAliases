@@ -1,10 +1,4 @@
 ============================
-Script Started: 27/03/2025 16:56:12
-Alias: TestMailboxTest@REDACTED.onmicrosoft.com: ADD: Mailbox: TestMailbox@REDACTED.onmicrosoft.com
-Alias: TestMailboxAlias@REDACTED.onmicrosoft.com: ADD: Mailbox: TestMailbox@REDACTED.onmicrosoft.com
-Alias: TestTestMailbox1@REDACTED.onmicrosoft.com: ADD: Mailbox: TestMailbox@REDACTED.onmicrosoft.com
-Alias: TestMailboxes@REDACTED.onmicrosoft.com: ADD: Mailbox: TestMailbox@REDACTED.onmicrosoft.com
-============================
 Script Started: 27/03/2025 16:59:13
 Alias: TestMailboxTest@REDACTED.onmicrosoft.com: Remove to/from Mailbox: TestMailbox@REDACTED.onmicrosoft.com
 Alias: TestMailboxAlias@REDACTED.onmicrosoft.com: Remove to/from Mailbox: TestMailbox@REDACTED.onmicrosoft.com

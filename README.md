@@ -1,12 +1,12 @@
-# AddMailboxAliases
-Adding a number of Aliases to an Email Account
+# ModifyMailboxAliases
+Adding/Removing Aliases to an Email Account from a List on a CSV File
 
 ## Usage:
 
 ```Powershell
 # Add Aliases
-.\AddMailboxAliases -Email MAILBOX@DOMAIN -CSVFilePath FILENAME.csv -Option Add
+.\ModifyMailboxAliases -Email email@domain.com -CSVFilePath Aliases.csv -Option Add
 
 # Remove Aliases
-.\AddMailboxAliases -Email MAILBOX@DOMAIN -CSVFilePath FILENAME.csv -Option Remove
+.\ModifyMailboxAliases -Email email@domain.com -CSVFilePath Aliases.csv -Option Remove
 ```

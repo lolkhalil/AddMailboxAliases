@@ -1,15 +1,15 @@
-# AddMailboxAliases - Script by Khalil
-# Used to add Multiple Aliases to an Email Account
+# ModifyMailboxAliases - Script by Khalil
+# Used to add/remove Multiple Aliases to an Email Account
 
-# Usage: .\AddMailboxAliases -Email MAILBOX@DOMAIN -CSVFilePath FILENAME.csv -Option Add
-#        .\AddMailboxAliases -Email MAILBOX@DOMAIN -CSVFilePath FILENAME.csv -Option Remove
+# Usage: .\ModifyMailboxAliases -Email MAILBOX@DOMAIN -CSVFilePath FILENAME.csv -Option Add
+#        .\ModifyMailboxAliases -Email MAILBOX@DOMAIN -CSVFilePath FILENAME.csv -Option Remove
 param($Email, $CSVFilePath, $Option)
 
 function WriteR($message) { Write-Host -ForegroundColor "Red" $message }
 function WriteG($message) { Write-Host -ForegroundColor "Green" $message }
 function WriteY($message) { Write-Host -ForegroundColor "Yellow" $message }
 
-$LogFile = "AddMailboxAlias.log"
+$LogFile = "Aliases.log"
 function AppendLogFile($Message) {
     if (!(Test-Path -Path $LogFile)) {
         New-Item -Path $LogFile | Out-Null
